@@ -14,6 +14,16 @@ export function ContactForm() {
     console.log(formData);
   };
 
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
   return (
     <form onSubmit={handleSubmit} className="max-w-xl mx-auto space-y-6">
       <div>
@@ -23,9 +33,10 @@ export function ContactForm() {
         <input
           type="text"
           id="name"
+          name="name"
           className="w-full bg-black/50 border-2 border-green-400 rounded p-3 text-white font-mono focus:outline-none focus:ring-2 focus:ring-green-400"
           value={formData.name}
-          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          onChange={handleChange}
           required
         />
       </div>
@@ -36,9 +47,10 @@ export function ContactForm() {
         <input
           type="email"
           id="email"
+          name="email"
           className="w-full bg-black/50 border-2 border-green-400 rounded p-3 text-white font-mono focus:outline-none focus:ring-2 focus:ring-green-400"
           value={formData.email}
-          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          onChange={handleChange}
           required
         />
       </div>
@@ -48,10 +60,11 @@ export function ContactForm() {
         </label>
         <textarea
           id="message"
+          name="message"
           rows={5}
           className="w-full bg-black/50 border-2 border-green-400 rounded p-3 text-white font-mono focus:outline-none focus:ring-2 focus:ring-green-400"
           value={formData.message}
-          onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+          onChange={handleChange}
           required
         />
       </div>
