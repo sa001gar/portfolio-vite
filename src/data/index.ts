@@ -129,23 +129,22 @@ export const shoutouts = [
   {
     name: "Koyel Das",
     role: "Frontend Developer",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    image: "https://github.com/sa001gar/portfolio-vite/blob/main/images/koyel_das.jpeg?raw=false",
     contribution: "A great friend who challenges me with new problems, encourages my growth, and collaborates with me in coding",
     github: "https://github.com/koyel001",
-    linkedin: "https://linkedin.com/in/rajpatel",
+    linkedin: "https://www.linkedin.com/in/koyel-das-80264a342/",
     tags: [
       { label: "Friend", color: "pink" },
       { label: "Partner", color: "orange" }
     ]
   },
   {
-    name: "Lisa Zhang",
-    role: "ML Engineer",
+    name: "Sujoy Das",
+    role: "UI/UX Designer",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
-    contribution: "Collaborated on multiple ML projects and shared invaluable insights in deep learning.",
-    github: "https://github.com/lisazhang",
-    linkedin: "https://linkedin.com/in/lisazhang",
-    portfolio: "https://lisazhang.ai",
+    contribution: "A childhood friend and talented UI/UX designer with whom I collaborate to create innovative and ambitious projects.",
+    linkedin: "https://linkedin.com/in/sujoydas",
+    portfolio: "#",
     tags: [
       { label: "Collaborator", color: "green" },
       { label: "Friend", color: "pink" }
@@ -155,8 +154,7 @@ export const shoutouts = [
 
 export const socialLinks = {
   github: 'https://github.com/sa001gar',
-  linkedin: 'https://linkedin.com/in/sa001gar',
-  twitter: 'https://twitter.com/sa001gar',
-  instagram: 'https://instagram.com/sa001gar',
-  email: 'contact@sagarkundu.com'
+  linkedin: 'https://www.linkedin.com/in/sagarkundu',
+  instagram: 'https://instagram.com/sagarkundu._',
+  email: 'hello@sagarkundu.live'
 };

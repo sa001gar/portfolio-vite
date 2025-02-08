@@ -99,9 +99,9 @@ export function HomePage() {
                 <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                {/* <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   <Twitter className="w-6 h-6" />
-                </a>
+                </a> */}
                 <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
@@ -127,7 +127,7 @@ export function HomePage() {
             </div>
           </div>
           <div className="border-t border-green-400/20 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Prime-Dev Technologies Pvt. Ltd. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Sagar Kundu Portfolio | All rights reserved.</p>
           </div>
         </div>
       </footer>
