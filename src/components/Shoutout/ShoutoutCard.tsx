@@ -2,6 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Github, Linkedin, Globe } from 'lucide-react';
 
+interface Tag {
+  label: string;
+  color: string;
+}
+
 interface ShoutoutCardProps {
   name: string;
   role: string;
@@ -11,7 +16,20 @@ interface ShoutoutCardProps {
   github?: string;
   linkedin?: string;
   portfolio?: string;
+  tags: Tag[];
 }
+
+const getTagColor = (color: string) => {
+  const colors = {
+    purple: 'bg-purple-400/20 text-purple-400',
+    blue: 'bg-blue-400/20 text-blue-400',
+    pink: 'bg-pink-400/20 text-pink-400',
+    green: 'bg-emerald-400/20 text-emerald-400',
+    orange: 'bg-orange-400/20 text-orange-400',
+    indigo: 'bg-indigo-400/20 text-indigo-400'
+  };
+  return colors[color as keyof typeof colors] || 'bg-gray-400/20 text-gray-400';
+};
 
 export function ShoutoutCard({
   name,
@@ -21,7 +39,8 @@ export function ShoutoutCard({
   index,
   github,
   linkedin,
-  portfolio
+  portfolio,
+  tags
 }: ShoutoutCardProps) {
   return (
     <motion.div
@@ -47,7 +66,20 @@ export function ShoutoutCard({
           <p className="text-gray-400">{role}</p>
         </div>
       </motion.div>
+      
+      <div className="flex flex-wrap gap-2 mb-4">
+        {tags.map((tag, i) => (
+          <span
+            key={i}
+            className={`px-2 py-1 rounded-full text-sm font-medium ${getTagColor(tag.color)}`}
+          >
+            {tag.label}
+          </span>
+        ))}
+      </div>
+
       <p className="text-gray-300 mb-4">{contribution}</p>
+      
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 text-pink-400">
           <Heart className="w-4 h-4" />

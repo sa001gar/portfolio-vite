@@ -45,9 +45,12 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-mono mb-4 sm:mb-6 typing-animation break-words leading-tight">
-                Crafting Digital Excellence
+              <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-mono mb-4 sm:mb-6 typing-animation break-words leading-tight whitespace-normal">
+                Sagar Kundu
               </h1>
+              <p className="text-xl sm:text-2xl md:text-3xl text-green-400/80 mb-4">
+                Full Stack Developer & ML Expert
+              </p>
             </motion.div>
 
             <motion.div
@@ -56,7 +59,10 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <p className="text-base sm:text-xl md:text-2xl font-mono mb-6 sm:mb-8 typing-animation-delay leading-relaxed">
-                Co-founder @ Prime-Dev Technologies Pvt. Ltd._
+                Backend Developer @ Durgapur, West Bengal_
+              </p>
+              <p className="text-sm sm:text-base text-gray-400 mb-4">
+                Computer Science Student at Mankar College
               </p>
             </motion.div>
           </div>

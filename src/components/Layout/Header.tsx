@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Terminal className="w-6 h-6" />
-            <span className="font-mono text-xl">SAGAR@KUNDU:~$</span>
+            <span className="font-mono text-xl">SAGAR@PORTFOLIO:~$</span>
           </div>
 
           {/* Desktop Navigation */}

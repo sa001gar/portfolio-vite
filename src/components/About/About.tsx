@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, Briefcase, GraduationCap } from 'lucide-react';
+import { Award, Briefcase, GraduationCap, Users, Code } from 'lucide-react';
 
 export function About() {
   return (
@@ -17,7 +17,7 @@ export function About() {
             <h2 className="text-3xl font-mono font-bold text-green-400">About Me</h2>
             <div>
               <p className="text-gray-300 text-lg">
-                As the Co-founder of Prime-Dev Technologies Pvt. Ltd., I lead innovation in AI, ML, and full-stack development. With expertise in both traditional and emerging technologies, I help businesses transform their digital presence.
+                As the Co-founder of Prime-Dev Technologies Pvt. Ltd., I lead innovation in AI, ML, and full-stack development. With expertise in both traditional and emerging technologies, I help businesses transform their digital presence and mentor aspiring developers.
               </p>
               <div className="mt-8 space-y-4">
                 <div className="flex items-center gap-4">
@@ -31,14 +31,28 @@ export function About() {
                   <GraduationCap className="w-6 h-6 text-green-400" />
                   <div>
                     <h3 className="font-mono text-green-400">B.Sc in Computer Science</h3>
-                    <p className="text-gray-400">Mankar College | Burdwan University</p>
+                    <p className="text-gray-400">Mankar College, The University of Burdwan</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Users className="w-6 h-6 text-green-400" />
+                  <div>
+                    <h3 className="font-mono text-green-400">Mentor & Educator</h3>
+                    <p className="text-gray-400">Guided 20+ students in their coding journey</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Code className="w-6 h-6 text-green-400" />
+                  <div>
+                    <h3 className="font-mono text-green-400">Open Source Contributor</h3>
+                    <p className="text-gray-400">Active contributor to educational and tech resources</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <Award className="w-6 h-6 text-green-400" />
                   <div>
-                    <h3 className="font-mono text-green-400">Tech Innovation Award 2023</h3>
-                    <p className="text-gray-400">For contributions to AI/ML research</p>
+                    <h3 className="font-mono text-green-400">Bug Hunter & Security Expert</h3>
+                    <p className="text-gray-400">Ensuring security through code excellence and proactive bug hunting.</p>
                   </div>
                 </div>
               </div>
@@ -61,7 +75,7 @@ export function About() {
                 whileHover={{ opacity: 1 }}
               />
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+                src="https://github.com/sa001gar/portfolio-vite/blob/main/myself.jpeg?raw=true"
                 alt="Profile"
                 className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
               />

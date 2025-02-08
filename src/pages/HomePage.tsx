@@ -5,6 +5,7 @@ import { ProjectCard } from '../components/Projects/ProjectCard';
 import { ContactForm } from '../components/Contact/ContactForm';
 import { About } from '../components/About/About';
 import { ShoutoutCard } from '../components/Shoutout/ShoutoutCard';
+import { BrandSection } from '../components/Brands/BrandSection';
 import {
   Code2,
   Database,
@@ -14,8 +15,13 @@ import {
   Cpu,
   Globe,
   Shield,
+  Github,
+  Linkedin,
+  Twitter,
+  Instagram,
+  Mail,
 } from 'lucide-react';
-import { projects, skills, shoutouts } from '../data';
+import { projects, skills, shoutouts, socialLinks } from '../data';
 
 export function HomePage() {
   return (
@@ -23,6 +29,8 @@ export function HomePage() {
       <Hero />
       
       <About />
+
+      <BrandSection />
 
       <section id="skills" className="py-20">
         <div className="container mx-auto px-4">
@@ -36,7 +44,6 @@ export function HomePage() {
             <SkillCard title="DevOps" icon={Cloud} skills={skills.devops} />
             <SkillCard title="AI & ML" icon={Brain} skills={skills.ai_ml} />
             <SkillCard title="Cloud" icon={Cpu} skills={skills.cloud} />
-            <SkillCard title="Web3" icon={Globe} skills={skills.web3} />
             <SkillCard title="Security" icon={Shield} skills={skills.security} />
           </div>
         </div>
@@ -79,12 +86,29 @@ export function HomePage() {
 
       <footer className="bg-black/80 text-green-400 py-12 border-t border-green-400/20">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="md:col-span-2">
               <h3 className="text-xl font-mono font-bold mb-4">About</h3>
-              <p className="text-gray-300">
-                Co-founder of Prime-Dev Technologies Pvt. Ltd., specializing in innovative tech solutions.
+              <p className="text-gray-300 mb-4">
+                Co-founder of Prime-Dev Technologies Pvt. Ltd., specializing in innovative tech solutions. Mentoring 20+ students in their coding journey and contributing to educational resources.
               </p>
+              <div className="flex gap-4">
+                <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Github className="w-6 h-6" />
+                </a>
+                <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Linkedin className="w-6 h-6" />
+                </a>
+                <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Twitter className="w-6 h-6" />
+                </a>
+                <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  <Instagram className="w-6 h-6" />
+                </a>
+                <a href={`mailto:${socialLinks.email}`} className="hover:text-white transition-colors">
+                  <Mail className="w-6 h-6" />
+                </a>
+              </div>
             </div>
             <div>
               <h3 className="text-xl font-mono font-bold mb-4">Quick Links</h3>
@@ -96,9 +120,10 @@ export function HomePage() {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-mono font-bold mb-4">Connect</h3>
+              <h3 className="text-xl font-mono font-bold mb-4">Contact</h3>
               <p className="text-gray-300 mb-2">Prime-Dev Technologies Pvt. Ltd.</p>
-              <p className="text-gray-300">hello@sagarkundu.live</p>
+              <p className="text-gray-300 mb-2">Durgapur, West Bengal</p>
+              <p className="text-gray-300">{socialLinks.email}</p>
             </div>
           </div>
           <div className="border-t border-green-400/20 mt-8 pt-8 text-center">

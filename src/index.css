@@ -8,19 +8,27 @@
 }
 
 .typing-animation {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(40, end);
-  animation-fill-mode: forwards;
+  white-space: normal;
+  animation: fadeIn 3s ease-in-out;
 }
 
 .typing-animation-delay {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(40, end);
+  white-space: normal;
+  animation: fadeIn 3s ease-in-out;
   animation-delay: 1s;
+  opacity: 0;
   animation-fill-mode: forwards;
-  width: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer base {

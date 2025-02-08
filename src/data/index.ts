@@ -1,12 +1,11 @@
 export const skills = {
-  languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'Java', 'SQL'],
+  languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C', 'Rust'],
   frameworks: ['Django', 'Next.js', 'React', 'FastAPI', 'Express.js', 'Flask'],
-  databases: ['PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch', 'MySQL', 'Supabase'],
-  devops: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'Linux'],
-  ai_ml: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenCV', 'NLTK', 'Pandas'],
+  databases: ['PostgreSQL', 'MongoDB', 'Elasticsearch', 'Supabase'],
+  devops: ['AWS', 'Azure', 'CI/CD', 'Git', 'Linux'],
+  ai_ml: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenCV', 'Pandas'],
   cloud: ['AWS EC2', 'S3', 'Lambda', 'Google Cloud', 'Azure', 'Heroku'],
-  web3: ['Solidity', 'Web3.js', 'Ethers.js', 'Hardhat', 'IPFS', 'Smart Contracts'],
-  security: ['OAuth', 'JWT', 'SSL/TLS', 'Encryption', 'Penetration Testing', 'Security Auditing'],
+  security: ['Metasploit', 'OWASP-10', 'Burpsuite', 'Encryption', 'Penetration Testing', 'Security Auditing'],
 };
 
 export const projects = [
@@ -15,7 +14,7 @@ export const projects = [
     title: 'SmartWatch Stress Detection',
     description: 'AI-powered stress detection system using smartwatch sensors. Utilizes machine learning to analyze biometric data for real-time stress monitoring.',
     technologies: ['Python', 'TensorFlow', 'scikit-learn', 'Flutter'],
-    githubUrl: 'https://github.com/yourusername/stress-detection',
+    githubUrl: 'https://github.com/sa001gar/stress-detection',
     image: 'https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?auto=format&fit=crop&w=800&q=80',
     date: 'January 2024',
     duration: '6 months',
@@ -33,78 +32,111 @@ export const projects = [
     `,
     contributors: [
       {
-        name: 'John Doe',
-        role: 'ML Engineer',
+        name: 'Mainak Majumder',
+        role: 'Software Developer',
         avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80'
       },
       {
-        name: 'Jane Smith',
-        role: 'Mobile Developer',
+        name: 'Sagar Kundu',
+        role: 'Software Developer',
         avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80'
       }
     ]
   },
   {
-    id: 'electricity-theft',
-    title: 'Electricity Theft Detection',
-    description: 'ML-based system for detecting electricity theft using smart meter data analysis and anomaly detection algorithms.',
-    technologies: ['Python', 'PyTorch', 'pandas', 'MongoDB'],
-    githubUrl: 'https://github.com/yourusername/electricity-theft',
-    image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=80',
-    date: 'October 2023',
-    duration: '8 months',
-    team: 3,
-    readme: `
-      <h1>Electricity Theft Detection System</h1>
-      <p>An advanced system that uses machine learning to detect electricity theft by analyzing smart meter data.</p>
-      <h2>Key Components</h2>
-      <ul>
-        <li>Anomaly detection algorithms</li>
-        <li>Real-time monitoring dashboard</li>
-        <li>Automated reporting system</li>
-        <li>Alert management</li>
-      </ul>
-    `
+    id: 'queue-management',
+    title: 'Queue Management App',
+    description: 'Smart queue management system for businesses to handle customer flow efficiently. Features real-time updates and analytics.',
+    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    githubUrl: 'https://github.com/sa001gar/queue-management',
+    image: 'https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=800&q=80',
+    date: 'February 2024',
+    duration: '3 months',
+    team: 2
   },
   {
-    id: 'code-compiler',
-    title: 'Online Code Compiler',
-    description: 'Full-stack web application for online code compilation and execution. Supports multiple programming languages with real-time output.',
-    technologies: ['Next.js', 'Django', 'Docker', 'PostgreSQL'],
-    githubUrl: 'https://github.com/yourusername/code-compiler',
-    liveUrl: 'https://code-compiler.example.com',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80',
+    id: 'just-found',
+    title: 'Just Found App',
+    description: 'Platform to help people find and recover lost items easily. Integrates location tracking and community notifications.',
+    technologies: ['React Native', 'Firebase', 'Google Maps API'],
+    githubUrl: 'https://github.com/sa001gar/just-found',
+    image: 'https://images.unsplash.com/photo-1586769852044-692d6e3703f0?auto=format&fit=crop&w=800&q=80',
     date: 'December 2023',
     duration: '4 months',
-    team: 2
+    team: 3
+  },
+  {
+    id: 'retro-diary',
+    title: 'Retro Diary',
+    description: 'Digital diary with a retro theme for storing beautiful memories. Features multimedia support and mood tracking.',
+    technologies: ['Vue.js', 'Express', 'PostgreSQL'],
+    githubUrl: 'https://github.com/sa001gar/retro-diary',
+    image: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=800&q=80',
+    date: 'January 2024',
+    duration: '2 months',
+    team: 1
+  },
+  {
+    id: 'lahari-event',
+    title: 'Lahari College Event',
+    description: 'Official website for Mankar College social event. Features event schedule, registration, and live updates.',
+    technologies: ['Next.js', 'Tailwind CSS', 'Supabase'],
+    githubUrl: 'https://github.com/sa001gar/lahari-event',
+    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+    date: 'March 2024',
+    duration: '1 month',
+    team: 4
+  },
+  {
+    id: 'c-programming-guide',
+    title: 'C Programming Guide',
+    description: 'Comprehensive collection of C programming questions and solutions for semester 2 students.',
+    technologies: ['C', 'Markdown', 'GitHub Pages'],
+    githubUrl: 'https://github.com/sa001gar/C-Questions-For-Sem-02',
+    image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80',
+    date: 'Ongoing',
+    duration: 'Continuous',
+    team: 1
   }
 ];
 
 export const shoutouts = [
   {
-    name: "Dr. Sarah Johnson",
-    role: "Research Mentor",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
-    contribution: "Guided me through my research in ML and helped shape my approach to problem-solving in AI.",
-    github: "https://github.com/sarahjohnson",
-    linkedin: "https://linkedin.com/in/sarahjohnson",
-    portfolio: "https://sarahjohnson.dev"
+    name: "Mainak Majumder",
+    role: "Software Developer",
+    image: "https://avatars.githubusercontent.com/u/101183982?v=4",
+    contribution: "Guided my ML research and shaped my AI problem-solving approach. We've collaborated on multiple web and ML projects.",
+    github: "https://github.com/mainak1023",
+    linkedin: "https://www.linkedin.com/in/mainak-majumder/",
+    portfolio: "https://mainak1023.github.io/mainak-portfolio/",
+    tags: [
+      { label: "Mentor", color: "purple" },
+      { label: "Co-founder", color: "blue" }
+    ]
   },
   {
-    name: "Prof. Michael Chen",
+    name: "Kunal Kumar Mondal",
     role: "Academic Advisor",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-    contribution: "Mentored me throughout my M.Tech journey and supported my entrepreneurial ventures.",
-    linkedin: "https://linkedin.com/in/michaelchen",
-    portfolio: "https://michaelchen.edu"
+    image: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/468795515_3914399012152134_6827407065814270934_n.jpg?ccb=11-4&oh=01_Q5AaIGlXMITxbAfC6WdNy0BppO6-wrscPS4WnLMx-ISbyVod&oe=67AB76F2&_nc_sid=5e03e0&_nc_cat=106",
+    contribution: "Mentores me through my B.Sc. journey and continues to support my growth and entrepreneurial ventures.",
+    linkedin: "https://linkedin.com/in",
+    portfolio: "https://kunalkumarmondal.github.io",
+    tags: [
+      { label: "Mentor", color: "purple" },
+      { label: "Academic", color: "indigo" }
+    ]
   },
   {
-    name: "Raj Patel",
-    role: "Senior Developer",
+    name: "Koyel Das",
+    role: "Frontend Developer",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-    contribution: "A great friend who helped me master full-stack development and system architecture.",
-    github: "https://github.com/rajpatel",
-    linkedin: "https://linkedin.com/in/rajpatel"
+    contribution: "A great friend who challenges me with new problems, encourages my growth, and collaborates with me in coding",
+    github: "https://github.com/koyel001",
+    linkedin: "https://linkedin.com/in/rajpatel",
+    tags: [
+      { label: "Friend", color: "pink" },
+      { label: "Partner", color: "orange" }
+    ]
   },
   {
     name: "Lisa Zhang",
@@ -113,6 +145,18 @@ export const shoutouts = [
     contribution: "Collaborated on multiple ML projects and shared invaluable insights in deep learning.",
     github: "https://github.com/lisazhang",
     linkedin: "https://linkedin.com/in/lisazhang",
-    portfolio: "https://lisazhang.ai"
+    portfolio: "https://lisazhang.ai",
+    tags: [
+      { label: "Collaborator", color: "green" },
+      { label: "Friend", color: "pink" }
+    ]
   }
 ];
+
+export const socialLinks = {
+  github: 'https://github.com/sa001gar',
+  linkedin: 'https://linkedin.com/in/sa001gar',
+  twitter: 'https://twitter.com/sa001gar',
+  instagram: 'https://instagram.com/sa001gar',
+  email: 'contact@sagarkundu.com'
+};
