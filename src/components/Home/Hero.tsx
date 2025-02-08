@@ -49,7 +49,7 @@ export function Hero() {
                 Sagar Kundu
               </h1>
               <p className="text-xl sm:text-2xl md:text-3xl text-green-400/80 mb-4">
-                Full Stack Developer & ML Expert
+                Software Developer & ML Expert
               </p>
             </motion.div>
 
