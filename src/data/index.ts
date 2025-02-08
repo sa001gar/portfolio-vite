@@ -14,13 +14,13 @@ export const projects = [
     title: 'SmartWatch Stress Detection',
     description: 'AI-powered stress detection system using smartwatch sensors. Utilizes machine learning to analyze biometric data for real-time stress monitoring.',
     technologies: ['Python', 'TensorFlow', 'scikit-learn', 'Flutter'],
-    githubUrl: 'https://github.com/sa001gar/stress-detection',
+    githubUrl: 'https://github.com/sa001gar/Stress-Detection-using-Smart-Watch',
     image: 'https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?auto=format&fit=crop&w=800&q=80',
     date: 'January 2024',
-    duration: '6 months',
+    duration: '3 months',
     team: 4,
     readme: `
-      <h1>SmartWatch Stress Detection</h1>
+      <h1>SmartWatch Stress Detection using ML</h1>
       <p>An innovative system that uses machine learning to detect stress levels from smartwatch sensor data.</p>
       <h2>Features</h2>
       <ul>
@@ -58,7 +58,7 @@ export const projects = [
     id: 'just-found',
     title: 'Just Found App',
     description: 'Platform to help people find and recover lost items easily. Integrates location tracking and community notifications.',
-    technologies: ['React Native', 'Firebase', 'Google Maps API'],
+    technologies: ['Django', 'Next.Js', 'Google Maps API', 'Websocket'],
     githubUrl: 'https://github.com/sa001gar/just-found',
     image: 'https://images.unsplash.com/photo-1586769852044-692d6e3703f0?auto=format&fit=crop&w=800&q=80',
     date: 'December 2023',
@@ -81,7 +81,7 @@ export const projects = [
     title: 'Lahari College Event',
     description: 'Official website for Mankar College social event. Features event schedule, registration, and live updates.',
     technologies: ['Next.js', 'Tailwind CSS', 'Supabase'],
-    githubUrl: 'https://github.com/sa001gar/lahari-event',
+    githubUrl: 'https://github.com/sa001gar/lahari-2024',
     image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
     date: 'March 2024',
     duration: '1 month',
