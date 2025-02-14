@@ -35,13 +35,6 @@ export function About() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Award className="w-6 h-6 text-green-400" />
-                  <div>
-                    <h3 className="font-mono text-green-400">Bug Hunter & Security Expert</h3>
-                    <p className="text-gray-400">Ensuring security through code excellence and proactive bug hunting.</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
                   <Users className="w-6 h-6 text-green-400" />
                   <div>
                     <h3 className="font-mono text-green-400">Mentor & Educator</h3>
@@ -52,10 +45,16 @@ export function About() {
                   <Code className="w-6 h-6 text-green-400" />
                   <div>
                     <h3 className="font-mono text-green-400">Open Source Contributor</h3>
-                    <p className="text-gray-400">Active contributor to educational and tech resources</p>
+                    <p className="text-gray-400">Active contributor to educational resources</p>
                   </div>
                 </div>
-                
+                <div className="flex items-center gap-4">
+                  <Award className="w-6 h-6 text-green-400" />
+                  <div>
+                    <h3 className="font-mono text-green-400">Bug Hunter & Security Expert</h3>
+                    <p className="text-gray-400">Ensuring security through code excellence and proactive bug hunting.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </motion.div>

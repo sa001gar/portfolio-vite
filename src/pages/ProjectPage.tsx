@@ -1,24 +1,22 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Github, ExternalLink, Calendar, Clock, Users } from 'lucide-react';
 import { projects } from '../data';
 
 export function ProjectPage() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const project = projects.find(p => p.id === id);
 
+  useEffect(() => {
+    if (!project) {
+      navigate('/404', { replace: true });
+    }
+  }, [project, navigate]);
+
   if (!project) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-mono text-green-400 mb-4">Project Not Found</h1>
-          <Link to="/" className="text-green-400 hover:text-white transition-colors">
-            Return Home
-          </Link>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   return (
