@@ -13,7 +13,6 @@ import {
   Cloud,
   Brain,
   Cpu,
-  Globe,
   Shield,
   Github,
   Linkedin,
@@ -127,7 +126,7 @@ export function HomePage() {
             </div>
           </div>
           <div className="border-t border-green-400/20 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Prime-Dev Technologies Pvt. Ltd. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Sagar Kundu | Software Developer</p>
           </div>
         </div>
       </footer>

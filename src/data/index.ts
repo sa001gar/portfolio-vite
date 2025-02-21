@@ -1,109 +1,269 @@
 export const skills = {
-  languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C', 'Rust(Learning)'],
-  frameworks: ['Django', 'Next.js', 'React', 'FastAPI', 'Express.js', 'Flask'],
+  languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C'],
+  frameworks: ['Django', 'React', 'FastAPI', 'Flask'],
   databases: ['PostgreSQL', 'MongoDB','Supabase'],
   devops: ['AWS','CI/CD', 'Git', 'Linux'],
   ai_ml: ['TensorFlow (Learning)', 'PyTorch', 'Scikit-learn', 'Pandas'],
-  cloud: ['AWS EC2', 'S3','Google Cloud', 'Netlify', 'Heroku', 'DigitalOcean', 'Vercel'],
-  security: ['Penetration Testing', 'OWASP Top 10', 'Burp Suite', 'Metasploit', 'Wireshark', 'Nmap'],
+  cloud: ['AWS EC2', 'S3','Google Cloud', 'Netlify','Vercel'],
+  security: ['OWASP Top 10', 'Burp Suite', 'Metasploit', 'Nmap'],
 };
 
 export const projects = [
+  
   {
-    id: 'stress-detection',
-    title: 'Stress Detection using ML',
-    description: 'Advanced ML-powered stress detection system using multimodal data from smartwatches. Features real-time monitoring, personalized insights, and preventive recommendations.',
-    technologies: ['Python', 'Scikit Learn', 'FastAPI', 'Smart Watch', 'HTML', 'CSS', 'JavaScript'],
-    githubUrl: 'https://github.com/sa001gar/Stress-Detection-using-Smart-Watch',
-    image: 'https://img.freepik.com/free-photo/3d-character-emerging-from-smartphone_23-2151336554.jpg?t=st=1740128295~exp=1740131895~hmac=092e5a71299892bfded291f56915715fd8f5dda4188926ea098570d3575ca272&w=826',
-    date: 'January 2025',
-    duration: '2 months',
-    team: 4,
+    id: 'kitto-ai',
+    title: 'Kitto AI – Write Better',
+    description: 'A Django-powered AI writing assistant that generates high-quality content with real-time word count and a modern, responsive UI.',
+    technologies: ['Django', 'AWS EC2', 'RDS', 'S3', 'Cloudflare CDN'],
+    githubUrl: 'https://github.com/sa001gar/kitto-ai',
+    image: 'https://img.freepik.com/free-photo/3d-render-robot-using-laptop_34663-47.jpg',
+    date: 'March 2024',
+    duration: '3 months',
+    team: 2,
     readme: `
-      # AI Stress Detection System
+      # Kitto AI – Write Better
       
-      An innovative system that leverages machine learning to detect and monitor stress levels using multimodal data from smartwatches.
+      Kitto AI is an AI writing assistant built with Django that generates high-quality content with real-time word count and a responsive UI.
       
       ## Key Features
-      - Real-time stress monitoring and analysis
-      - Multi-sensor data fusion (HRV, GSR, accelerometer)
-      - Personalized stress threshold calibration
-      - Preventive recommendations engine
-      - Secure data handling and privacy protection
+      - AI-driven content generation
+      - Real-time word count
+      - Responsive design for multiple devices
       
       ## Technical Implementation
-      - Deep learning models for time-series analysis
-      - Real-time data processing pipeline
-      - Mobile app for data visualization
-      - Cloud infrastructure for scalability
+      - Backend: Django
+      - Deployment: AWS EC2, RDS, S3, Cloudflare CDN
     `,
     contributors: [
       {
-        name: 'Mainak Majumder',
-        role: 'ML Research Lead',
-        avatar: 'https://avatars.githubusercontent.com/u/101183982?v=4'
-      },
-      {
         name: 'Sagar Kundu',
-        role: 'Software Developer',
+        role: 'Lead Developer',
         avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
       }
     ]
   },
   {
-    id: 'electricity-theft',
-    title: 'Smart Grid Theft Detection',
-    description: 'AI-powered system for detecting electricity theft using smart meter data. Implements advanced anomaly detection and pattern recognition algorithms.',
-    technologies: ['Python', 'PyTorch', 'TensorFlow', 'PostgreSQL', 'Django', 'Next.js'],
-    githubUrl: 'https://github.com/sa001gar/electricity-theft',
-    image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=80',
-    date: 'February 2024',
-    duration: '6 months',
-    team: 3
-  },
-  {
-    id: 'code-compiler',
-    title: 'Cloud Code Compiler',
-    description: 'Secure, scalable online code compilation and execution platform supporting 20+ programming languages. Features real-time collaboration and code sharing.',
-    technologies: ['Go', 'Docker', 'Kubernetes', 'Redis', 'WebSocket'],
-    githubUrl: 'https://github.com/sa001gar/code-compiler',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80',
-    date: 'January 2024',
-    duration: '4 months',
-    team: 2
-  },
-  {
-    id: 'defi-platform',
-    title: 'DeFi Lending Platform',
-    description: 'Decentralized lending platform with automated market maker (AMM) functionality. Features yield farming, liquidity mining, and governance token.',
-    technologies: ['Solidity', 'Web3.js', 'React', 'Hardhat', 'TheGraph'],
-    githubUrl: 'https://github.com/sa001gar/defi-platform',
-    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80',
-    date: 'December 2023',
+    id: 'electricity-theft-detection',
+    title: 'Smart Electricity Theft Detection System',
+    description: 'A system using Flask and Next.js to detect unauthorized electricity usage with real-time monitoring via Arduino-based sensors.',
+    technologies: ['Flask', 'Next.js', 'Arduino', 'Python'],
+    githubUrl: 'https://github.com/sa001gar/electricity-theft-detection',
+    image: 'https://private-user-images.githubusercontent.com/99886804/407098804-549b3ee0-5766-46d2-959f-5668f4f02e6e.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNTgwMDAsIm5iZiI6MTc0MDE1NzcwMCwicGF0aCI6Ii85OTg4NjgwNC80MDcwOTg4MDQtNTQ5YjNlZTAtNTc2Ni00NmQyLTk1OWYtNTY2OGY0ZjAyZTZlLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE3MDgyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1MmZhNDg2MTVmY2RjYmMwNTlhYjMwNTY5MjdjZTkzYTg2ZTRkMDUwZDAzMzgxYTYwNmRmNmU4MzRiNzFlNWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ytmNV5l_Q9N3ssJiuy_GMtuEWo4m0wcTu-PaM4JQVyY',
+    date: 'September 2024',
     duration: '5 months',
-    team: 3
+    team: 4,
+    readme: `
+      # Smart Electricity Theft Detection System
+      
+      This system detects unauthorized electricity usage using real-time monitoring with Arduino sensors and provides alerts for any anomalies.
+      
+      ## Key Features
+      - Real-time monitoring of electricity consumption
+      - Anomaly detection for theft prevention
+      - User-friendly dashboard for monitoring
+      
+      ## Technical Implementation
+      - Backend: Flask
+      - Frontend: Next.js
+      - Hardware: Arduino sensors
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'Backend Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
   },
   {
-    id: 'ai-tutor',
-    title: 'AI Programming Tutor',
-    description: 'Personalized programming education platform powered by GPT-4. Features interactive coding exercises, real-time code analysis, and adaptive learning paths.',
-    technologies: ['Python', 'OpenAI API', 'Next.js', 'PostgreSQL', 'Redis'],
-    githubUrl: 'https://github.com/sa001gar/ai-tutor',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80',
-    date: 'November 2023',
+    id: 'applied-physio-website',
+    title: 'Applied Physio – Brand Website',
+    description: 'A professional, SEO-optimized website designed for a physiotherapy brand using HTML, Tailwind CSS, and JavaScript.',
+    technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
+    githubUrl: 'https://github.com/sa001gar/applied-physio-website',
+    image: 'https://img.freepik.com/free-photo/physiotherapy-concept-with-spine_23-2149847916.jpg',
+    date: 'November 2024',
+    duration: '2 months',
+    team: 1,
+    readme: `
+      # Applied Physio – Brand Website
+      
+      Developed a professional website for the physiotherapy brand "Applied Physio" featuring SEO optimization and a modern design.
+      
+      ## Key Features
+      - Responsive design for all devices
+      - SEO-optimized structure
+      - Informative content and easy navigation
+      
+      ## Technical Implementation
+      - Frontend: HTML, Tailwind CSS, JavaScript
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'Full-Stack Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
+  },
+  {
+    id: 'college-website-redesign',
+    title: 'College Website Redesign',
+    description: 'A modern redesign of a college website featuring enhanced accessibility, performance, and a sleek UI.',
+    technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
+    githubUrl: 'https://github.com/sa001gar/college-website-redesign',
+    image: 'https://img.freepik.com/free-photo/education-concept-with-books-laptop_23-2148535203.jpg',
+    date: 'January 2025',
     duration: '3 months',
-    team: 2
+    team: 2,
+    readme: `
+      # College Website Redesign
+      
+      Revamped a college website to improve accessibility, performance, and user experience with a modern design.
+      
+      ## Key Features
+      - Modern UI/UX design
+      - Improved accessibility and performance
+      - Mobile responsiveness
+      
+      ## Technical Implementation
+      - Frontend: HTML, Tailwind CSS, JavaScript
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'Frontend Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
   },
   {
-    id: 'cyber-threat-detection',
-    title: 'Cyber Threat Detection',
-    description: 'ML-powered cybersecurity system for real-time threat detection and response. Implements advanced anomaly detection and network traffic analysis.',
-    technologies: ['Python', 'TensorFlow', 'Elasticsearch', 'Kafka', 'Docker'],
-    githubUrl: 'https://github.com/sa001gar/cyber-threat-detection',
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80',
-    date: 'October 2023',
-    duration: '7 months',
-    team: 4
+    id: 'stress-detection',
+    title: 'Stress Detection Using Smartwatch',
+    description: 'An ML-based system that analyzes smartwatch data to provide real-time stress level insights and personalized recommendations.',
+    technologies: ['Python', 'Flask', 'Machine Learning'],
+    githubUrl: 'https://github.com/sa001gar/stress-detection',
+    image: 'https://img.freepik.com/free-photo/smartwatch-with-health-app_23-2148535204.jpg',
+    date: 'February 2025',
+    duration: '4 months',
+    team: 3,
+    readme: `
+      # Stress Detection Using Smartwatch
+      
+      An innovative system leveraging machine learning to analyze smartwatch data, providing real-time stress insights and personalized recommendations.
+      
+      ## Key Features
+      - Real-time stress monitoring and analysis
+      - ML-driven stress prediction
+      - Personalized recommendations
+      
+      ## Technical Implementation
+      - Backend: Flask
+      - Machine Learning: Python ML libraries
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'ML Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
+  },
+  {
+    id: 'api-testing-extension',
+    title: 'API Testing Chrome Extension',
+    description: 'A lightweight Chrome extension for efficient API testing, featuring an intuitive interface and real-time response previews.',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    githubUrl: 'https://github.com/sa001gar/api-testing-extension',
+    image: 'https://img.freepik.com/free-vector/browser-window-with-code_23-2148535205.jpg',
+    date: 'April 2025',
+    duration: '2 months',
+    team: 1,
+    readme: `
+      # API Testing Chrome Extension
+      
+      A streamlined Chrome extension designed for testing APIs efficiently with real-time response previews and an intuitive user interface.
+      
+      ## Key Features
+      - Intuitive API testing interface
+      - Real-time response previews
+      - Lightweight and efficient
+      
+      ## Technical Implementation
+      - Frontend: JavaScript, HTML, CSS
+      - Packaged as a Chrome extension
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
+  },
+  {
+    id: 'ai-code-editor',
+    title: 'AI Code Editor & Code Guru',
+    description: 'An AI-powered code editor that offers real-time suggestions, debugging assistance, and syntax highlighting to enhance coding efficiency.',
+    technologies: ['React', 'Flask', 'JavaScript'],
+    githubUrl: 'https://github.com/sa001gar/ai-code-editor',
+    image: 'https://img.freepik.com/free-vector/code-editor-concept-illustration_114360-7893.jpg',
+    date: 'May 2025',
+    duration: '3 months',
+    team: 2,
+    readme: `
+      # AI Code Editor & Code Guru
+      
+      An innovative code editor leveraging AI to provide real-time code suggestions, debugging assistance, and syntax highlighting for an enhanced coding experience.
+      
+      ## Key Features
+      - Real-time code suggestions
+      - Integrated debugging assistance
+      - Syntax highlighting
+      
+      ## Technical Implementation
+      - Frontend: React
+      - Backend: Flask
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'Full-Stack Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
+  },
+  {
+    id: 'retro-diary-app',
+    title: 'Retro-Themed Diary Web App',
+    description: 'A minimalistic, retro-themed diary application designed for users to effortlessly jot down their thoughts and notes.',
+    technologies: ['Flask', 'React', 'CSS'],
+    githubUrl: 'https://github.com/sa001gar/retro-diary-app',
+    image: 'https://img.freepik.com/free-photo/vintage-diary-with-pen_23-2148535206.jpg',
+    date: 'July 2025',
+    duration: '2 months',
+    team: 1,
+    readme: `
+      # Retro-Themed Diary Web App
+      
+      A simple and elegant diary application featuring a retro aesthetic, allowing users to record and review their personal thoughts and notes.
+      
+      ## Key Features
+      - Minimalistic design with retro UI
+      - Easy note-taking interface
+      - Mobile-friendly layout
+      
+      ## Technical Implementation
+      - Backend: Flask
+      - Frontend: React, CSS
+    `,
+    contributors: [
+      {
+        name: 'Sagar Kundu',
+        role: 'Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
+      }
+    ]
   }
 ];
 
@@ -124,7 +284,7 @@ export const shoutouts = [
   {
     name: "Kunal Kumar Mondal",
     role: "Academic Advisor",
-    image: "https://media-ccu2-1.cdn.whatsapp.net/v/t61.24694-24/468795515_3914399012152134_6827407065814270934_n.jpg?ccb=11-4&oh=01_Q5AaIGlXMITxbAfC6WdNy0BppO6-wrscPS4WnLMx-ISbyVod&oe=67AB76F2&_nc_sid=5e03e0&_nc_cat=106",
+    image: "https://github.com/sa001gar/portfolio-vite/blob/main/images/kkm.png?raw=true",
     contribution: "Mentores me through my B.Sc. journey and continues to support my growth and entrepreneurial ventures.",
     linkedin: "https://linkedin.com/in",
     portfolio: "https://kunalkumarmondal.github.io",
@@ -148,7 +308,7 @@ export const shoutouts = [
   {
     name: "Sujoy Das",
     role: "UI/UX Designer",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
+    image: "https://scontent.fdbd3-1.fna.fbcdn.net/v/t39.30808-1/406603225_350245387697302_1989587278324643144_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=hLhFqVtGmEEQ7kNvgGomCyb&_nc_oc=Adh8UsOUFEq_xemfuw7TYKZteNmYNaY0GtN-a5ZMNNLGgdoXbAtM6eI92ms6zPoUsWw&_nc_zt=24&_nc_ht=scontent.fdbd3-1.fna&_nc_gid=A6iQg1ofP7PoytuAeknoAot&oh=00_AYDOLyguVUpSJ5ZLP3bLNKW7yDh-3YtAZf95lWEQXB6M8A&oe=67BE767F",
     contribution: "A childhood friend and talented UI/UX designer with whom I collaborate to create innovative and ambitious projects.",
     linkedin: "https://linkedin.com/in/sujoydas",
     portfolio: "#",

@@ -5,14 +5,37 @@ import * as THREE from 'three';
 
 // Memoize static data
 const codeSnippets = [
-  'const train = async () => {',
-  '  await model.fit(x, y);',
-  '}',
-  'class AI {',
-  '  predict(input) {',
-  '    return this.forward(input);',
-  '  }',
-  '}'
+  ' // 💀 I broke production... again.',  
+  // ' // 😵‍💫 JavaScript, why are you like this?',  
+  // ' // 🚀 Deploying in 3... 2... oh no.',  
+  // ' // 🤖 AI wrote this, I just take credit.',  
+  // ' // 🔥 If it works, don’t touch it.',  
+  // ' // 💡 "Temporary" fix since 2020.',  
+  // ' // 🤬 Debugging: 90% confusion, 10% panic.',  
+  // ' // 🚨 Warning: This code bites.',  
+  // ' // 😂 If this works, it’s pure luck.',  
+  // ' // TODO: Delete this before anyone sees.',  
+  // ' // 🤷‍♂️ I have no idea why this works.',  
+  // ' // 🚑 Emergency commit, don’t ask.',  
+  ' // ☕ BRB, need more coffee.',  
+  // ' // 😎 Code so clean, even my mom is proud.',  
+  // ' // 🔧 Fixing bugs I created last night.',  
+  // ' // 🙃 Feature or bug? Who cares!',  
+  // ' // 🤡 I should’ve been a plumber.',  
+  // ' // 📢 Coding is awesome… until it isn’t.',  
+  // ' // 💭 Thought I understood this… I don’t.',  
+  // ' // ⛔ Do not run this in production.',  
+  ' // 😅 Just one more bug fix…',  
+  // ' // 💣 What could possibly go wrong?',  
+  // ' // 🚀 Pushing to prod, wish me luck.',  
+  ' // 🏆 Broke everything. Again.',  
+  // ' // 🎭 This code is an emotional rollercoaster.',  
+  // ' // 🕵️‍♂️ Searching Stack Overflow like a pro.',  
+  ' // 😤 JavaScript, you’re drunk.',  
+  // ' // ⌨️ Typing random stuff until it works.',  
+  ' // 🌙 Night coding = Bad decisions.',  
+  ' // 💀 "Works on my machine!"' 
+  
 ];
 
 const symbols = ['0', '1', '{', '}', '[', ']', '<', '>', '(', ')'];

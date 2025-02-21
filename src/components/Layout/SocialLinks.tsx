@@ -13,12 +13,12 @@ export function SocialLinks({ mobile }: SocialLinksProps) {
       label: 'GitHub',
     },
     {
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/sagarkundu/',
       icon: Linkedin,
       label: 'LinkedIn',
     },
     {
-      href: 'mailto:contact@example.com',
+      href: 'mailto:hello@sagarkundu.live',
       icon: Mail,
       label: 'Email',
     },
