@@ -1,24 +1,23 @@
 export const skills = {
-  languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C', 'Rust'],
+  languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C', 'Rust(Learning)'],
   frameworks: ['Django', 'Next.js', 'React', 'FastAPI', 'Express.js', 'Flask'],
-  databases: ['PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch', 'MySQL', 'Supabase', 'Cassandra', 'Neo4j'],
-  devops: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'Linux', 'Terraform', 'Jenkins'],
-  ai_ml: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenCV', 'NLTK', 'Pandas', 'Keras', 'Hugging Face'],
-  cloud: ['AWS EC2', 'S3', 'Lambda', 'Google Cloud', 'Azure', 'Heroku', 'DigitalOcean', 'Vercel'],
-  web3: ['Solidity', 'Web3.js', 'Ethers.js', 'Hardhat', 'IPFS', 'Smart Contracts', 'DeFi', 'NFTs'],
-  security: ['Penetration Testing', 'OWASP Top 10', 'Burp Suite', 'Metasploit', 'Wireshark', 'Nmap', 'Cryptography', 'Security Auditing'],
+  databases: ['PostgreSQL', 'MongoDB','Supabase'],
+  devops: ['AWS','CI/CD', 'Git', 'Linux'],
+  ai_ml: ['TensorFlow (Learning)', 'PyTorch', 'Scikit-learn', 'Pandas'],
+  cloud: ['AWS EC2', 'S3','Google Cloud', 'Netlify', 'Heroku', 'DigitalOcean', 'Vercel'],
+  security: ['Penetration Testing', 'OWASP Top 10', 'Burp Suite', 'Metasploit', 'Wireshark', 'Nmap'],
 };
 
 export const projects = [
   {
     id: 'stress-detection',
-    title: 'AI Stress Detection System',
+    title: 'Stress Detection using ML',
     description: 'Advanced ML-powered stress detection system using multimodal data from smartwatches. Features real-time monitoring, personalized insights, and preventive recommendations.',
-    technologies: ['Python', 'TensorFlow', 'FastAPI', 'React Native', 'AWS'],
-    githubUrl: 'https://github.com/sa001gar/stress-detection',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    date: 'March 2024',
-    duration: '8 months',
+    technologies: ['Python', 'Scikit Learn', 'FastAPI', 'Smart Watch', 'HTML', 'CSS', 'JavaScript'],
+    githubUrl: 'https://github.com/sa001gar/Stress-Detection-using-Smart-Watch',
+    image: 'https://img.freepik.com/free-photo/3d-character-emerging-from-smartphone_23-2151336554.jpg?t=st=1740128295~exp=1740131895~hmac=092e5a71299892bfded291f56915715fd8f5dda4188926ea098570d3575ca272&w=826',
+    date: 'January 2025',
+    duration: '2 months',
     team: 4,
     readme: `
       # AI Stress Detection System
@@ -40,14 +39,14 @@ export const projects = [
     `,
     contributors: [
       {
-        name: 'Dr. Rajesh Kumar',
+        name: 'Mainak Majumder',
         role: 'ML Research Lead',
-        avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&q=80'
+        avatar: 'https://avatars.githubusercontent.com/u/101183982?v=4'
       },
       {
-        name: 'Priya Singh',
-        role: 'Mobile Developer',
-        avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80'
+        name: 'Sagar Kundu',
+        role: 'Software Developer',
+        avatar: 'https://github.com/sa001gar/portfolio-vite/blob/main/images/sagarkundu.png?raw=true'
       }
     ]
   },
@@ -55,7 +54,7 @@ export const projects = [
     id: 'electricity-theft',
     title: 'Smart Grid Theft Detection',
     description: 'AI-powered system for detecting electricity theft using smart meter data. Implements advanced anomaly detection and pattern recognition algorithms.',
-    technologies: ['Python', 'PyTorch', 'Apache Spark', 'MongoDB', 'Docker'],
+    technologies: ['Python', 'PyTorch', 'TensorFlow', 'PostgreSQL', 'Django', 'Next.js'],
     githubUrl: 'https://github.com/sa001gar/electricity-theft',
     image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=80',
     date: 'February 2024',

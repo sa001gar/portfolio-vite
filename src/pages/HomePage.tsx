@@ -44,7 +44,6 @@ export function HomePage() {
             <SkillCard title="DevOps" icon={Cloud} skills={skills.devops} />
             <SkillCard title="AI & ML" icon={Brain} skills={skills.ai_ml} />
             <SkillCard title="Cloud" icon={Cpu} skills={skills.cloud} />
-            <SkillCard title="Web3" icon={Globe} skills={skills.web3} />
             <SkillCard title="Security" icon={Shield} skills={skills.security} />
           </div>
         </div>
