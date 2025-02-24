@@ -211,7 +211,7 @@ export const projects = [
     description: 'An AI-powered code editor that offers real-time suggestions, debugging assistance, and syntax highlighting to enhance coding efficiency.',
     technologies: ['React', 'Flask', 'JavaScript'],
     githubUrl: 'https://github.com/sa001gar/gurukul',
-    image: 'https://img.freepik.com/free-vector/code-editor-concept-illustration_114360-7893.jpg',
+    image: 'https://raw.githubusercontent.com/sa001gar/portfolio-vite/refs/heads/main/images/gurukul.webp',
     liveUrl: 'https://gurukul.sagarkundu.live',
     date: 'May 2025',
     duration: '3 months',
