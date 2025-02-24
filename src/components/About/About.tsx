@@ -27,6 +27,7 @@ export function About() {
                     <p className="text-gray-400">Prime-Dev Technologies Pvt. Ltd.</p>
                   </div>
                 </div> */}
+                
                 <div className="flex items-center gap-4">
                   <GraduationCap className="w-6 h-6 text-green-400" />
                   <div>
