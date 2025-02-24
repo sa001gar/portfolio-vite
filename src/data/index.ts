@@ -146,7 +146,7 @@ export const projects = [
     description: 'An ML-based system that analyzes smartwatch data to provide real-time stress level insights and personalized recommendations.',
     technologies: ['Python', 'Flask', 'Machine Learning'],
     githubUrl: 'https://github.com/sa001gar/Stress-Detection-using-Smart-Watch',
-    image: 'https://img.freepik.com/free-photo/smartwatch-with-health-app_23-2148535204.jpg',
+    image: 'https://files.oaiusercontent.com/file-BaTFrQ3dL71ShijBwRsYW4?se=2025-02-24T10%3A54%3A26Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dfe2cf8e3-f3db-4f1b-bf65-58f343e548fc.webp&sig=8%2BtGdX3Yz3SrCw3wLk4dZmuvl2wEmMv%2Bl6Wf9/KmYVA%3D',
     date: 'February 2025',
     duration: '4 months',
     team: 3,
