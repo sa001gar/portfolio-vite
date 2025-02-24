@@ -17,16 +17,16 @@ export function About() {
             <h2 className="text-3xl font-mono font-bold text-green-400">About Me</h2>
             <div>
               <p className="text-gray-300 text-lg">
-                As the Co-founder of Prime-Dev Technologies Pvt. Ltd., I lead innovation in AI, ML, and full-stack development. With expertise in both traditional and emerging technologies, I help businesses transform their digital presence and mentor aspiring developers.
+                As a Developer, I lead innovation in AI, ML, and full-stack development. With expertise in both traditional and emerging technologies, I help businesses transform their digital presence and mentor aspiring developers.
               </p>
               <div className="mt-8 space-y-4">
-                <div className="flex items-center gap-4">
+                {/* <div className="flex items-center gap-4">
                   <Briefcase className="w-6 h-6 text-green-400" />
                   <div>
                     <h3 className="font-mono text-green-400">Co-founder & CTO</h3>
                     <p className="text-gray-400">Prime-Dev Technologies Pvt. Ltd.</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-4">
                   <GraduationCap className="w-6 h-6 text-green-400" />
                   <div>

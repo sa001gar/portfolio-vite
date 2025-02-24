@@ -89,7 +89,7 @@ export function HomePage() {
             <div className="md:col-span-2">
               <h3 className="text-xl font-mono font-bold mb-4">About</h3>
               <p className="text-gray-300 mb-4">
-                Co-founder of Prime-Dev Technologies Pvt. Ltd., specializing in innovative tech solutions. Mentoring 20+ students in their coding journey and contributing to educational resources.
+                Software Developer, specializing in innovative tech solutions. Mentoring 20+ students in their coding journey and contributing to educational resources.
               </p>
               <div className="flex gap-4">
                 <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
@@ -98,9 +98,9 @@ export function HomePage() {
                 <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                {/* <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   <Twitter className="w-6 h-6" />
-                </a>
+                </a> */}
                 <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
@@ -120,7 +120,7 @@ export function HomePage() {
             </div>
             <div>
               <h3 className="text-xl font-mono font-bold mb-4">Contact</h3>
-              <p className="text-gray-300 mb-2">Prime-Dev Technologies Pvt. Ltd.</p>
+              {/* <p className="text-gray-300 mb-2">Prime-Dev Technologies Pvt. Ltd.</p> */}
               <p className="text-gray-300 mb-2">Durgapur, West Bengal</p>
               <p className="text-gray-300">{socialLinks.email}</p>
             </div>

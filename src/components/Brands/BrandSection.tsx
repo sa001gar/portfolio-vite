@@ -53,9 +53,7 @@ export function BrandSection() {
       description: "Leading physiotherapy clinic in Durgapur",
       services: [
         "Full-stack web application development",
-        "Patient management system",
         "Online appointment scheduling",
-        "Digital health records management"
       ]
     },
     {
@@ -63,34 +61,32 @@ export function BrandSection() {
       title: "Mankar College",
       description: "Premier educational institution in West Bengal",
       services: [
-        "College website development",
-        "Student portal implementation",
-        "Online admission system",
-        "Academic management system"
+        "Departmental Website implementation",
+        "SEO Optimization",
       ]
     },
-    {
-      icon: Utensils,
-      title: "Dhanilanka Restaurant",
-      description: "Popular restaurant in Durgapur",
-      services: [
-        "Restaurant website development",
-        "Online menu management",
-        "Order tracking system",
-        "Customer feedback portal"
-      ]
-    },
-    {
-      icon: BookOpen,
-      title: "Pankaj TD Bull",
-      description: "Educational trading platform",
-      services: [
-        "Course management system",
-        "Website maintenance",
-        "Student progress tracking",
-        "Content delivery platform"
-      ]
-    }
+    // {
+    //   icon: Utensils,
+    //   title: "Dhanilanka Restaurant",
+    //   description: "Popular restaurant in Durgapur",
+    //   services: [
+    //     "Restaurant website development",
+    //     "Online menu management",
+    //     "Order tracking system",
+    //     "Customer feedback portal"
+    //   ]
+    // },
+    // {
+    //   icon: BookOpen,
+    //   title: "Pankaj TD Bull",
+    //   description: "Educational trading platform",
+    //   services: [
+    //     "Course management system",
+    //     "Website maintenance",
+    //     "Student progress tracking",
+    //     "Content delivery platform"
+    //   ]
+    // }
   ];
 
   return (

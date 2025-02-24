@@ -1,10 +1,10 @@
 export const skills = {
   languages: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C'],
   frameworks: ['Django', 'React', 'FastAPI', 'Flask'],
-  databases: ['PostgreSQL', 'MongoDB','Supabase'],
+  databases: ['PostgreSQL ORM', 'MongoDB','Supabase'],
   devops: ['AWS','CI/CD', 'Git', 'Linux'],
   ai_ml: ['TensorFlow (Learning)', 'PyTorch', 'Scikit-learn', 'Pandas'],
-  cloud: ['AWS EC2', 'S3','Google Cloud', 'Netlify','Vercel'],
+  cloud: ['AWS EC2', 'S3', 'Netlify','Vercel'],
   security: ['OWASP Top 10', 'Burp Suite', 'Metasploit', 'Nmap'],
 };
 
@@ -15,10 +15,11 @@ export const projects = [
     title: 'Kitto AI – Write Better',
     description: 'A Django-powered AI writing assistant that generates high-quality content with real-time word count and a modern, responsive UI.',
     technologies: ['Django', 'AWS EC2', 'RDS', 'S3', 'Cloudflare CDN'],
-    githubUrl: 'https://github.com/sa001gar/kitto-ai',
+    githubUrl: 'https://github.com/sa001gar/ai_project_aws_deployment',
     image: 'https://img.freepik.com/free-photo/3d-render-robot-using-laptop_34663-47.jpg',
     date: 'March 2024',
-    duration: '3 months',
+    liveUrl: 'https://kittoai.sagarkundu.live',
+    duration: '6 months',
     team: 2,
     readme: `
       # Kitto AI – Write Better
@@ -47,13 +48,13 @@ export const projects = [
     title: 'Smart Electricity Theft Detection System',
     description: 'A system using Flask and Next.js to detect unauthorized electricity usage with real-time monitoring via Arduino-based sensors.',
     technologies: ['Flask', 'Next.js', 'Arduino', 'Python'],
-    githubUrl: 'https://github.com/sa001gar/electricity-theft-detection',
-    image: 'https://private-user-images.githubusercontent.com/99886804/407098804-549b3ee0-5766-46d2-959f-5668f4f02e6e.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNTgwMDAsIm5iZiI6MTc0MDE1NzcwMCwicGF0aCI6Ii85OTg4NjgwNC80MDcwOTg4MDQtNTQ5YjNlZTAtNTc2Ni00NmQyLTk1OWYtNTY2OGY0ZjAyZTZlLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE3MDgyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1MmZhNDg2MTVmY2RjYmMwNTlhYjMwNTY5MjdjZTkzYTg2ZTRkMDUwZDAzMzgxYTYwNmRmNmU4MzRiNzFlNWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ytmNV5l_Q9N3ssJiuy_GMtuEWo4m0wcTu-PaM4JQVyY',
-    date: 'September 2024',
-    duration: '5 months',
+    githubUrl: 'https://github.com/sa001gar/Smart-Electricity-Theft-Detection',
+    image: 'images/smart-electricity-theft-dashboard.png',
+    date: 'December 2024',
+    duration: '3 months',
     team: 4,
     readme: `
-      # Smart Electricity Theft Detection System
+      # Smart Electricity Theft Detection System\n
       
       This system detects unauthorized electricity usage using real-time monitoring with Arduino sensors and provides alerts for any anomalies.
       
@@ -81,9 +82,10 @@ export const projects = [
     description: 'A professional, SEO-optimized website designed for a physiotherapy brand using HTML, Tailwind CSS, and JavaScript.',
     technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
     githubUrl: 'https://github.com/sa001gar/applied-physio-website',
-    image: 'https://img.freepik.com/free-photo/physiotherapy-concept-with-spine_23-2149847916.jpg',
+    image: 'images/appliedphysio ui.png',
     date: 'November 2024',
     duration: '2 months',
+    liveUrl: 'https://appliedphysio.in',
     team: 1,
     readme: `
       # Applied Physio – Brand Website
@@ -115,6 +117,7 @@ export const projects = [
     image: 'https://img.freepik.com/free-photo/education-concept-with-books-laptop_23-2148535203.jpg',
     date: 'January 2025',
     duration: '3 months',
+    liveUrl: 'https://redesign-mccs.sagarkundu.live',
     team: 2,
     readme: `
       # College Website Redesign
@@ -142,7 +145,7 @@ export const projects = [
     title: 'Stress Detection Using Smartwatch',
     description: 'An ML-based system that analyzes smartwatch data to provide real-time stress level insights and personalized recommendations.',
     technologies: ['Python', 'Flask', 'Machine Learning'],
-    githubUrl: 'https://github.com/sa001gar/stress-detection',
+    githubUrl: 'https://github.com/sa001gar/Stress-Detection-using-Smart-Watch',
     image: 'https://img.freepik.com/free-photo/smartwatch-with-health-app_23-2148535204.jpg',
     date: 'February 2025',
     duration: '4 months',
@@ -175,6 +178,7 @@ export const projects = [
     description: 'A lightweight Chrome extension for efficient API testing, featuring an intuitive interface and real-time response previews.',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/sa001gar/api-testing-extension',
+    liveurl:'https://devapi.sagarkundu.live',
     image: 'https://img.freepik.com/free-vector/browser-window-with-code_23-2148535205.jpg',
     date: 'April 2025',
     duration: '2 months',
@@ -206,8 +210,9 @@ export const projects = [
     title: 'AI Code Editor & Code Guru',
     description: 'An AI-powered code editor that offers real-time suggestions, debugging assistance, and syntax highlighting to enhance coding efficiency.',
     technologies: ['React', 'Flask', 'JavaScript'],
-    githubUrl: 'https://github.com/sa001gar/ai-code-editor',
+    githubUrl: 'https://github.com/sa001gar/gurukul',
     image: 'https://img.freepik.com/free-vector/code-editor-concept-illustration_114360-7893.jpg',
+    liveUrl: 'https://gurukul.sagarkundu.live',
     date: 'May 2025',
     duration: '3 months',
     team: 2,
@@ -237,14 +242,15 @@ export const projects = [
     id: 'retro-diary-app',
     title: 'Retro-Themed Diary Web App',
     description: 'A minimalistic, retro-themed diary application designed for users to effortlessly jot down their thoughts and notes.',
-    technologies: ['Flask', 'React', 'CSS'],
-    githubUrl: 'https://github.com/sa001gar/retro-diary-app',
+    technologies: ['Supabase', 'React', 'Tailwind Css', 'Django'],
+    githubUrl: 'https://github.com/sa001gar/Retro-Diary-Website',
     image: 'https://img.freepik.com/free-photo/vintage-diary-with-pen_23-2148535206.jpg',
-    date: 'July 2025',
+    date: 'September 2024',
     duration: '2 months',
+    liveUrl: 'https://diary.sagarkundu.live',
     team: 1,
     readme: `
-      # Retro-Themed Diary Web App
+      # Retro-Themed Diary Web App\n
       
       A simple and elegant diary application featuring a retro aesthetic, allowing users to record and review their personal thoughts and notes.
       
@@ -321,8 +327,8 @@ export const shoutouts = [
 
 export const socialLinks = {
   github: 'https://github.com/sa001gar',
-  linkedin: 'https://linkedin.com/in/sa001gar',
-  twitter: 'https://twitter.com/sa001gar',
-  instagram: 'https://instagram.com/sa001gar',
+  linkedin: 'https://linkedin.com/in/sagarkundu',
+  // twitter: 'https://twitter.com/sa001gar',
+  instagram: 'https://instagram.com/sagarkundu._',
   email: 'hello@sagarkundu.live'
 };
