@@ -58,7 +58,7 @@ export function ShoutoutCard({
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover aspect-square"
+            className="w-full h-full object-cover"
           />
         </div>
         <div>
