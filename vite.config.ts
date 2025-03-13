@@ -6,17 +6,16 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-  },
-  server: {
-    historyApiFallback: true,
+    include: ['react', 'react-dom', 'react/jsx-runtime']
   },
   build: {
-    ssr: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        ssr: resolve(__dirname, 'src/entry-server.tsx'),
-      },
-    },
+      }
+    }
+  },
+  server: {
+    historyApiFallback: true,
   },
 });
